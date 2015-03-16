@@ -68,7 +68,7 @@ $semArray = array(
         'moscow' => array('Москва', '14 апреля', '', 'http://www.mandri.lg.ua/kcfinder/img/images/Moscow-1600x900-005.jpg'),
         'penza' => array('Пенза', '15 апреля', '15', 'http://sizz.name/wp-content/uploads/2013/08/G0010343.jpg'),
         'voronezh' => array('Воронеж', '16 апреля', '15', 'http://bestmaps.ru/files/content_images/20130204134915.jpg'), 
-        'piter' => array('Санкт-Петербург', '28 апреля', '15', 'http://ved69.ru/images/Spb.jpg'),
+        'piter2' => array('Санкт-Петербург', '28 апреля', '15', 'http://ved69.ru/images/Spb.jpg'),
         ),
     '44'  => array(
         'vladimir' => array('Владимир', '03 апреля', '15', 'http://www.zapoved.ru/photos/9bab/db77/834c/1083/95b7/ee05/50a8/bbba/large.jpg?2880811'),
