@@ -1,5 +1,7 @@
 <?php namespace App\Http\Controllers;
 
+use Mail;
+
 class WelcomeController extends Controller {
 
 	/*
@@ -91,8 +93,7 @@ class WelcomeController extends Controller {
 	    Mail::send('emails.apply', $data, function($message)
 		{
 		    $message->from('noreply@global-tender.ru', 'Заявка :: "Глобал Тендер"');
-		    //$message->to('thedamaxstudio@gmail.com')->cc('global-tender@mail.ru');
-                    $message->to('ihptru@gmail.com')->cc('PoIg@gendalf.ru');
+		    $message->to('ihptru@gmail.com')->cc('global-tender@mail.ru');
 		});
 	}
 }
