@@ -48,7 +48,7 @@
             </div>
         </div>
         <footer class="footer">
-            <span class="fl-l footer-text">Global-Tender &copy; 2010 - 2014</span>
+            <span class="fl-l footer-text">Global-Tender &copy; 2010 - 2015</span>
         </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
