@@ -116,16 +116,16 @@ $semArray = array(
                                     <span class="sem-name">Время:</span><span class="sem-val">с 11:00 до 17:00</span>
                             </div>
                             <div class="row">
-                                <span class="sem-name">Стоимость:</span><!--
-                                --><span class="sem-val">7500 рублей <a class="apply-us-btn js-pop-show" data-popup="apply" href="#">Подать заявку</a><!-- , при подаче заявки с сайта <span class="sem-sale">скидка 10%</span> --></span>
+                                <!--<span class="sem-name">Стоимость:</span>
+                                <span class="sem-val">7500 рублей --><a style="margin-left: 0px;" class="apply-us-btn js-pop-show" data-popup="apply" href="#">Подать заявку</a><!-- , при подаче заявки с сайта <span class="sem-sale">скидка 10%</span> --></span>
                             </div>
                         @else 
                             <div class="row">
                                     <span class="sem-name">Время:</span><span class="sem-val">с 11:00 до 16:00</span>
                             </div>
                             <div class="row">
-                                <span class="sem-name">Стоимость:</span><!--
-                                --><span class="sem-val">6500 рублей <a class="apply-us-btn js-pop-show" data-popup="apply" href="#">Подать заявку</a><!-- , при подаче заявки с сайта <span class="sem-sale">скидка 10%</span> --></span>
+                                <!--<span class="sem-name">Стоимость:</span>
+                                <span class="sem-val">6500 рублей --><a style="margin-left: 0px;" class="apply-us-btn js-pop-show" data-popup="apply" href="#">Подать заявку</a><!-- , при подаче заявки с сайта <span class="sem-sale">скидка 10%</span> --></span>
                             </div>
                         @endif
                             
@@ -218,8 +218,8 @@ $semArray = array(
                                 <span class="sem-name">Время:</span><span class="sem-val">с 10:00 до 18:00</span>
                         </div>
                         <div class="row">
-                            <span class="sem-name">Стоимость:</span><!--
-                            --><span class="sem-val">6500 рублей <a class="apply-us-btn js-pop-show" data-popup="apply" href="#">Подать заявку</a><!-- , при подаче заявки с сайта <span class="sem-sale">скидка 10%</span> --></span>
+                            <!--<span class="sem-name">Стоимость:</span>
+                            <span class="sem-val">6500 рублей --><a style="margin-left: 0px;" class="apply-us-btn js-pop-show" data-popup="apply" href="#">Подать заявку</a><!-- , при подаче заявки с сайта <span class="sem-sale">скидка 10%</span> --></span>
                         </div>
                         <div class="row">
                             <span class="sem-name">Контактное лицо:</span><span class="sem-val">Кристина Олеговна</span>

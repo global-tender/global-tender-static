@@ -46,7 +46,7 @@
             </div>
         </div>
         <footer class="footer">
-            <span class="fl-l footer-text">Global-Tender &copy; 2010 - 2014</span>
+            <span class="fl-l footer-text">Global-Tender &copy; 2010 - 2015</span>
         </footer>
         <div class="overlay">
             <div class="pop-window closed" data-popup="apply">
