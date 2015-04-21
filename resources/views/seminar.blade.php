@@ -68,18 +68,19 @@ $semArray = array(
         //'moscow' => array('Москва', '20 апреля', '15', 'http://www.mandri.lg.ua/kcfinder/img/images/Moscow-1600x900-005.jpg'),
         //'penza' => array('Пенза', '15 апреля', '15', 'http://sizz.name/wp-content/uploads/2013/08/G0010343.jpg'),
         'voronezh' => array('Воронеж', '24 апреля', '15', 'http://bestmaps.ru/files/content_images/20130204134915.jpg'), 
-	'stav223' => array('Ставрополь', '27 апреля', '15', 'http://photo.vsedomarossii.ru/area_26/city_1651/street_9260/101850_3.jpg'),
+        'stav223' => array('Ставрополь', '27 апреля', '15', 'http://photo.vsedomarossii.ru/area_26/city_1651/street_9260/101850_3.jpg'),
         'piter2' => array('Санкт-Петербург', '28 апреля', '15', 'http://ved69.ru/images/Spb.jpg'),
-	'arch223' => array('Архангельск', '05 мая', '15', 'http://fotki29.ru/images/1/dvina_arkhangelsk_.jpg'),
-	'kurgan223' => array('Курган', '15 мая', '15', 'http://ic.pics.livejournal.com/sleeppy_peeppy/29526628/75418/original.jpg'),
-	'kemerovo223' => array('Кемерово', '22 мая', '15', 'http://bestmaps.ru/files/content_images/20121110130240.jpg'),
-	'tomsk223' => array('Томск', '23 мая', '15', 'http://voinskayachast.ru/wp-content/uploads/2015/01/%D1%82%D0%BE%D0%BC%D1%81%D0%BA.jpg'),
-	'moscow2' => array('Москва', '28 мая', '15', 'http://www.mandri.lg.ua/kcfinder/img/images/Moscow-1600x900-005.jpg'),
+        'arch223' => array('Архангельск', '05 мая', '15', 'http://fotki29.ru/images/1/dvina_arkhangelsk_.jpg'),
+        'kurgan223' => array('Курган', '15 мая', '15', 'http://ic.pics.livejournal.com/sleeppy_peeppy/29526628/75418/original.jpg'),
+        'kemerovo223' => array('Кемерово', '22 мая', '15', 'http://bestmaps.ru/files/content_images/20121110130240.jpg'),
+        'tomsk223' => array('Томск', '23 мая', '15', 'http://voinskayachast.ru/wp-content/uploads/2015/01/%D1%82%D0%BE%D0%BC%D1%81%D0%BA.jpg'),
+        'moscow2' => array('Москва', '28 мая', '15', 'http://www.mandri.lg.ua/kcfinder/img/images/Moscow-1600x900-005.jpg'),
         ),
     '44'  => array(
+	'stav44' => array('Ставрополь', '15 мая', '15', 'http://photo.vsedomarossii.ru/area_26/city_1651/street_9260/101850_3.jpg'),
         //'tumen' => array('Тюмень', '24 апреля', '15', 'http://www.argoturs.ru/userfiles/image/catalog/original/1355322418_dsc05201.jpg?PHPSESSID=f10466dcb0ccab58cf928330ab91c007'),
         //'piter' => array('Санкт-Петербург', '29 апреля', '15', 'http://ved69.ru/images/Spb.jpg'),
-	//'vladimir' => array('Владимир', '03 апреля', '15', 'http://www.zapoved.ru/photos/9bab/db77/834c/1083/95b7/ee05/50a8/bbba/large.jpg?2880811'),
+        //'vladimir' => array('Владимир', '03 апреля', '15', 'http://www.zapoved.ru/photos/9bab/db77/834c/1083/95b7/ee05/50a8/bbba/large.jpg?2880811'),
         //'belgorod' => array('Белгород', '30 января', '15', 'http://trans-continental.ru/wp-content/uploads/2013/12/41907831.jpg'),
         //'voronezh' => array('Воронеж', '18 февраля', '15', 'http://bestmaps.ru/files/content_images/20130204134915.jpg'), 
         //'ryzan' => array('Рязань', '18 февраля', '15', 'http://ryazan.igid.ru/img/upload/photos/66939df1c60a354c5c76e5def4cddd6a_1024_0.jpg'), 
@@ -87,7 +88,6 @@ $semArray = array(
         //'stav223' => array('Ставрополь', '24 ноября', '', 'http://photo.vsedomarossii.ru/area_26/city_1651/street_9260/101850_3.jpg'), 
         //'rostov44' => array('Ростов-на-Дону', '11 декабря', '', 'http://upload.wikimedia.org/wikipedia/ru/0/0f/%D0%9D%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D0%B0%D1%8F_%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2%D0%B0-%D0%BD%D0%B0-%D0%94%D0%BE%D0%BD%D1%83.jpg'), 
         //'moscow' => array('Москва', '28 ноября', '', 'http://www.mandri.lg.ua/kcfinder/img/images/Moscow-1600x900-005.jpg'),
-        //'stav44' => array('Ставрополь', '10 октября', '', 'http://photo.vsedomarossii.ru/area_26/city_1651/street_9260/101850_3.jpg'),
         //'arch44' => array('Архангельск', '16 октября', '', 'http://fotki29.ru/images/1/dvina_arkhangelsk_.jpg'),
         ),
     'nal'  => array(
@@ -116,24 +116,19 @@ $semArray = array(
 
                     <div class="sem-info">
 
-                        <!-- <div class="row">
-                            <span class="sem-name">Место проведения:</span><span class="sem-val">Вертол Экспо</span>
-                        </div> -->
                         @if($seminar[0] == 'Тюмень')
                             <div class="row">
                                     <span class="sem-name">Время:</span><span class="sem-val">с 11:00 до 17:00</span>
                             </div>
                             <div class="row">
-                                <!--<span class="sem-name">Стоимость:</span>
-                                <span class="sem-val">7500 рублей --><a style="margin-left: 0px;" class="apply-us-btn js-pop-show" data-popup="apply" href="#">Подать заявку</a><!-- , при подаче заявки с сайта <span class="sem-sale">скидка 10%</span> --></span>
+                                <a style="margin-left: 0px;" class="apply-us-btn js-pop-show" data-popup="apply" href="#">Подать заявку</a></span>
                             </div>
                         @else 
                             <div class="row">
                                     <span class="sem-name">Время:</span><span class="sem-val">с 11:00 до 16:00</span>
                             </div>
                             <div class="row">
-                                <!--<span class="sem-name">Стоимость:</span>
-                                <span class="sem-val">6500 рублей --><a style="margin-left: 0px;" class="apply-us-btn js-pop-show" data-popup="apply" href="#">Подать заявку</a><!-- , при подаче заявки с сайта <span class="sem-sale">скидка 10%</span> --></span>
+                                <a style="margin-left: 0px;" class="apply-us-btn js-pop-show" data-popup="apply" href="#">Подать заявку</a></span>
                             </div>
                         @endif
                             
@@ -222,15 +217,14 @@ $semArray = array(
                     </div>
 
                     <?php 
-                    } if($_GET['act'] == '44') {
+                    } if($_GET['act'] == '44' && $_GET['sem'] != 'stav44') {
                     ?>
                     <div class="sem-info">
                         <div class="row">
                                 <span class="sem-name">Время:</span><span class="sem-val">с 10:00 до 18:00</span>
                         </div>
                         <div class="row">
-                            <!--<span class="sem-name">Стоимость:</span>
-                            <span class="sem-val">6500 рублей --><a style="margin-left: 0px;" class="apply-us-btn js-pop-show" data-popup="apply" href="#">Подать заявку</a><!-- , при подаче заявки с сайта <span class="sem-sale">скидка 10%</span> --></span>
+                            <a style="margin-left: 0px;" class="apply-us-btn js-pop-show" data-popup="apply" href="#">Подать заявку</a></span>
                         </div>
                         <div class="row">
                             <span class="sem-name">Контактное лицо:</span><span class="sem-val">Кристина Олеговна</span>
@@ -368,6 +362,158 @@ $semArray = array(
                     <?php
                     }
                     ?>
+
+                    <?php 
+                    if($_GET['act'] == '44' && $_GET['sem'] == 'stav44') {
+                    ?>
+                    <div class="sem-info">
+                        <div class="row">
+                                <span class="sem-name">Время:</span><span class="sem-val">с 10:00 до 18:00</span>
+                        </div>
+                        <div class="row">
+                            <a style="margin-left: 0px;" class="apply-us-btn js-pop-show" data-popup="apply" href="#">Подать заявку</a></span>
+                        </div>
+                        <div class="row">
+                            <span class="sem-name">Контактное лицо:</span><span class="sem-val">Кристина Олеговна</span>
+                        </div>
+                        <div class="row">
+                            <span class="sem-name">Телефон:</span><!--
+                            --><span class="sem-val">+7 (961) 286-91-31</span>
+                        </div>
+                        <div class="row">
+                            <span class="sem-name">Электронная почта:</span><span class="sem-val">global-tender@yandex.ru</span>
+                        </div>
+                        <hr>
+                        <table class="seminar-table">
+                            <tr>
+                                <td>Время:</td>
+                                <td>Программа семинара:</td>
+                            </tr>
+                            <tr>
+                                <td>9.45 – 10.00</td>
+                                <td>Регистрация участников</td>
+                            </tr>
+                            <tr>
+                                <td>10.00 – 11.30</td>
+                                <td>
+
+                                    <h3>Контрактная система (КС) в РФ:</h3>
+                                    <ul>
+                                        <li>Основные понятия КС, сфера действия, объекты регулирования, информационное обеспечение.
+                                        <li>Нормативно-правовая база в сфере закупок.
+                                        <li>Обзор произошедших и готовящихся изменений КС.
+                                    </ul>
+
+                                    <h3>Изменения в планировании закупочной деятельности:</h3>
+                                    <ul>
+                                        <li>Особенности планирования закупок: нормирование, обоснование НМЦК, планы-графики, планы закупок.
+                                        <li>Обоснование НМЦК (начальной цены): методы определения и особенности их использования.
+                                    </ul>
+
+                                    <h3>Общие требования к осуществлению закупок в рамках 44-ФЗ</h3>
+                                    <ul>
+                                        <li>Извещение и документация о закупке. Требования к описанию предмета закупки («техническому заданию», «ТЗ»). Использование товарных знаков, «диапазонов», требования антимонопольного законодательства. Разбор примеров из практики, а также возможных ошибок поставщиков.
+                                        <li>Единые и дополнительные требования к участникам закупок. Правила их установления.  Подтверждение участником соответствия данным требованиям.
+                                        <li>Требования к обеспечению заявки на участие в закупке и к обеспечению исполнения контракта. Виды.
+                                        <li>Антидемпинговые меры. Правила применения. Подтверждение добросовестности поставщиков.
+                                        <li>Преимущества для отдельных участников закупок: субъектов малого предпринимательства, социально-ориентированных некоммерческих организаций, учреждений и предприятий уголовно-исправительной системы, организаций инвалидов.
+                                        <li>Национальный режим: условия, запреты и ограничения на поставку иностранных товаров. Преференции.
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>11.30 – 11.45</td>
+                                <td>Перерыв</td>
+                            </tr>
+                            <tr>
+                                <td>11.45 – 13.30</td>
+                                <td>
+                                    <h3>Заключение, изменение и расторжение контракта.</h3>
+                                    <ul>
+                                        <li>Заключение, изменения и исполнения контрактов.
+                                        <li>Расторжение контракта: по соглашению сторон, по решению суда, в порядке применения одностороннего отказа стороны контракта от исполнения обязательств. Односторонний отказ: процедура и последствия.
+                                        <li>Особенности заключения, изменения и исполнения контрактов в различных отраслях.
+                                    </ul>
+                                    <h3>Запрос котировок</h3>
+                                    <ul>
+                                        <li>Основания для проведения.
+                                        <li>Правила подготовки и подачи заявок. Требования к форме и составу заявки.
+                                    </ul>
+                                    <h3>Электронный аукцион.</h3>
+                                    <ul>
+                                        <li>Основания для проведения. «Аукционный перечень».
+                                        <li>Требования к составу первой части заявки. Особенности указания характеристик.
+                                        <li>Требования к составу второй части заявки.
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>13.30 – 14.30</td>
+                                <td>Обед</td>
+                            </tr>
+                            <tr>
+                                <td>14.30 – 15.45</td>
+                                <td>
+                                    <h3>Открытый конкурс.</h3>
+                                    <ul>
+                                        <li>Основания для проведения и особенности процедуры.
+                                        <li>Правила подачи конкурсных заявок. Требования к составу заявки.
+                                        <li>Обязательный пакет документов по составу конкурсной заявки и.
+                                    </ul>
+
+                                    <h3>Конкурс с ограниченным участием и Двухэтапный конкурс.</h3>
+                                    <ul>
+                                        <li>Основания для проведения.
+                                        <li>Предквалификационный отбор участников закупок. Порядок подготовки пакета документов в составе заявки для его прохождения.
+                                        <li>Постановление Правительства РФ № 1089 от 28.11.2013г. «Об условиях проведения процедуры конкурса с ограниченным участием…» и его применение в соответствующих отраслях.
+                                    </ul>
+
+                                    <h3>Запрос предложений</h3>
+                                    <ul>
+                                        <li>Основания для проведения и особенности процедуры.
+                                        <li>Правила подачи заявок и окончательных предложений. Выставление требований к форме и составу заявки.
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>15.45 – 16.00</td>
+                                <td>Перерыв</td>
+                            </tr>
+                            <tr>
+                                <td>16.00 – 16.40</td>
+                                <td>
+                                    <h3>Обжалование и контроль. Ответственность за нарушения</h3>
+                                    <ul>
+                                        <li>Контрольные органы.
+                                        <li>Подача жалобы (требования к срокам, форме, составу и способу подачи).
+                                        <li>Процедура рассмотрения жалобы в ФАС. Реестры недобросовестных поставщиков (РНП). Основания, процедура  и последствия включения участника в РНП
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>16.40 - 17.00</td>
+                                <td>
+                                    <h3>Концепция изменения способов определения поставщиков.</h3>
+                                    <ul>
+                                        <li>Обзор вносимых изменений в перечень способов.
+                                        <li>Единая информационная система. Региональные и муниципальные системы.
+                                        <li>Особенности документооборота.
+                                    </ul>
+                                </td>
+                            </tr>    
+                            <tr>
+                                <td>17.00 – 18.00</td>
+                                <td>«Круглый стол» (ответы на вопросы).</td>
+                            </tr>
+                        </table>
+                        <div class="download-block">
+                            <a href="#"><i class="fa fa-file"></i> Скачать программу</a>
+                        </div>
+                    </div>
+
+                    <?php
+                    }
+                    ?>
                 </main>
             </div>
     @endif
@@ -409,3 +555,4 @@ $semArray = array(
     </script>
 
 @stop
+
