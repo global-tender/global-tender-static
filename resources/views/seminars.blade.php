@@ -71,15 +71,12 @@ $semArray = array(
 	//'stav223' => array('Ставрополь', '27 апреля', '15', 'http://photo.vsedomarossii.ru/area_26/city_1651/street_9260/101850_3.jpg'),
 	'kurgan223' => array('Курган', '15 мая', '15', 'http://ic.pics.livejournal.com/sleeppy_peeppy/29526628/75418/original.jpg'),
 	'kemerovo223' => array('Кемерово', '22 мая', '15', 'http://bestmaps.ru/files/content_images/20121110130240.jpg'),
-	'tomsk223' => array('Томск', '26 мая', '15', 'http://voinskayachast.ru/wp-content/uploads/2015/01/%D1%82%D0%BE%D0%BC%D1%81%D0%BA.jpg'),
 	'moscow2' => array('Москва', '28 мая', '15', 'http://www.mandri.lg.ua/kcfinder/img/images/Moscow-1600x900-005.jpg'),
 	'piter2' => array('Санкт-Петербург', '29 мая', '15', 'http://ved69.ru/images/Spb.jpg'),
 	'tumen' => array('Тюмень', '05 июня', '15', 'http://www.argoturs.ru/userfiles/image/catalog/original/1355322418_dsc05201.jpg?PHPSESSID=f10466dcb0ccab58cf928330ab91c007'),
-	'murmansk' => array('Мурманск', '08 июня', '15', 'http://miriam-tour.ru/pic/kola_murmansk_01b.jpg'),
-	'arch223_2' => array('Архангельск', '09 июня', '', 'http://fotki29.ru/images/1/dvina_arkhangelsk_.jpg'),
         ),
     '44'  => array(
-	'stav44' => array('Ставрополь', '15 мая', '15', 'http://photo.vsedomarossii.ru/area_26/city_1651/street_9260/101850_3.jpg'),
+	//'stav44' => array('Ставрополь', '15 мая', '15', 'http://photo.vsedomarossii.ru/area_26/city_1651/street_9260/101850_3.jpg'),
 	'karsnodar44' => array('Краснодар', '29 мая', '15', 'http://cdn2.img22.ria.ru/images/63571/94/635719458.jpg'),
 	//'tumen' => array('Тюмень', '24 апреля', '15', 'http://www.argoturs.ru/userfiles/image/catalog/original/1355322418_dsc05201.jpg?PHPSESSID=f10466dcb0ccab58cf928330ab91c007'),
 	//'piter' => array('Санкт-Петербург', '29 апреля', '15', 'http://ved69.ru/images/Spb.jpg'),
@@ -95,21 +92,17 @@ $semArray = array(
         ),
     'nal'  => array(
         ),
+    '223n' => array(
+	'tomsk223' => array('Томск', '26 мая', '15', 'http://voinskayachast.ru/wp-content/uploads/2015/01/%D1%82%D0%BE%D0%BC%D1%81%D0%BA.jpg'),
+	'murmansk' => array('Мурманск', '08 июня', '15', 'http://miriam-tour.ru/pic/kola_murmansk_01b.jpg'),
+        'arch223_2' => array('Архангельск', '09 июня', '', 'http://fotki29.ru/images/1/dvina_arkhangelsk_.jpg'),
+	),
     );
-
 ?>
                 <main class="wrapper clearfix">
                     <h2 class="title padding-t25">Расписание семинаров</h2>
                     <h3 class="seminar-title">223-ФЗ: новые требования к закупкам унитарных предприятий, автономных учреждений, государственных компаний и субъектов естественных монополий</h3>
                     <ul class="seminars">
-                        <!-- <li class="seminar">
-                            <div class="seminar-back" style="background-image: url(img/rostov.jpeg);"></div>
-                            <a href="seminar-one.html">
-                                <span class="sem-date">24 мая <span class="year">'14</span></span>
-                                <span class="place">Краснодар</span>
-                                <span>Вертол, 5 улица</span>
-                            </a>
-                        </li> -->
                         <?php
                             foreach($semArray[223] as $val => $sem) {
                                 echo   "<li class=\"seminar\">
@@ -117,7 +110,21 @@ $semArray = array(
                                             <a href=\"seminar?act=223&sem=".$val."\">
                                                 <span class=\"sem-date\">".$sem[1]." <span class=\"year\">'".$sem[2]."</span></span>
                                                 <span class=\"place\">".$sem[0]."</span>
-                                                <!--<span>Вертол, 5 улица</span>-->
+                                            </a>
+                                        </li>";
+                            }
+                        ?>
+                    </ul>
+
+		    <h3 class="seminar-title">223-ФЗ: новые требования к закупкам унитарных предприятий, автономных учреждений, государственных компаний и субъектов естественных монополий. Работа с Торговым порталом Fabrikant.ru</h3>
+                    <ul class="seminars">
+                        <?php
+                            foreach($semArray['223n'] as $val => $sem) {
+                                echo   "<li class=\"seminar\">
+                                            <div class=\"seminar-back\" style=\"background-image: url(".$sem[3].");\"></div>
+                                            <a href=\"seminar?act=223n&sem=".$val."\">
+                                                <span class=\"sem-date\">".$sem[1]." <span class=\"year\">'".$sem[2]."</span></span>
+                                                <span class=\"place\">".$sem[0]."</span>
                                             </a>
                                         </li>";
                             }
@@ -133,7 +140,6 @@ $semArray = array(
                                             <a href=\"seminar?act=44&sem=".$val."\">
                                                 <span class=\"sem-date\">".$sem[1]." <span class=\"year\">'".$sem[2]."</span></span>
                                                 <span class=\"place\">".$sem[0]."</span>
-                                                <!--<span>Вертол, 5 улица</span>-->
                                             </a>
                                         </li>";
                             }
