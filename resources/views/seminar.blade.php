@@ -70,9 +70,9 @@ $semArray = array(
         //'voronezh' => array('Воронеж', '24 апреля', '15', 'http://bestmaps.ru/files/content_images/20130204134915.jpg'), 
         //'stav223' => array('Ставрополь', '27 апреля', '15', 'http://photo.vsedomarossii.ru/area_26/city_1651/street_9260/101850_3.jpg'),
         'kurgan223' => array('Курган', '15 мая', '15', 'http://ic.pics.livejournal.com/sleeppy_peeppy/29526628/75418/original.jpg'),
-        'kemerovo223' => array('Кемерово', '22 мая', '15', 'http://bestmaps.ru/files/content_images/20121110130240.jpg'),
         'moscow2' => array('Москва', '28 мая', '15', 'http://www.mandri.lg.ua/kcfinder/img/images/Moscow-1600x900-005.jpg'),
         'piter2' => array('Санкт-Петербург', '29 мая', '15', 'http://ved69.ru/images/Spb.jpg'),
+	'kemerovo223' => array('Кемерово', '02 июня', '15', 'http://bestmaps.ru/files/content_images/20121110130240.jpg'),
         'tumen' => array('Тюмень', '05 июня', '15', 'http://www.argoturs.ru/userfiles/image/catalog/original/1355322418_dsc05201.jpg?PHPSESSID=f10466dcb0ccab58cf928330ab91c007'),
         ),
     '44'  => array(
@@ -127,7 +127,30 @@ $semArray = array(
                             <div class="row">
                                 <a style="margin-left: 0px;" class="apply-us-btn js-pop-show" data-popup="apply" href="#">Подать заявку</a></span>
                             </div>
-                            
+                        <?php
+				if ($_GET['act'] == '223' && $_GET['sem'] == 'moscow2') {
+			?>
+				<hr />
+				<div class="row" style="height: 120px;">
+			   	<span class="sem-name">Стоимость участия при подаче заявки:</span>
+				   <span class="sem-val">
+			   	<table><tbody><tr><td>до 15 мая, 9 500 руб./чел.
+				    </td></tr>
+				<tr><td>
+				  до 22 мая 10 500 руб./чел.
+				  </td></tr>
+				<tr><td>
+				  после 13 500 руб./чел.
+				  </td></tr>
+				<tr><td>
+				  более 1-го участника – предоставляется скидка 15%.
+				  </td></tr></tbody></table></span>
+				</div>
+				<hr />
+				<div class="row">
+					<span class="sem-name">Место проведения:</span><span class="sem-val">г. Москва . ул. Сходненская дом. 9 (Сбербанк Центр развития бизнеса)</span>
+				</div>
+			<? } ?>
                         <div class="row">
                             <span class="sem-name">Контактное лицо:</span><span class="sem-val">Кристина Олеговна</span>
                         </div>
