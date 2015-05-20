@@ -70,14 +70,16 @@ $semArray = array(
         //'voronezh' => array('Воронеж', '24 апреля', '15', 'http://bestmaps.ru/files/content_images/20130204134915.jpg'), 
         //'stav223' => array('Ставрополь', '27 апреля', '15', 'http://photo.vsedomarossii.ru/area_26/city_1651/street_9260/101850_3.jpg'),
         'kurgan223' => array('Курган', '15 мая', '15', 'http://ic.pics.livejournal.com/sleeppy_peeppy/29526628/75418/original.jpg'),
-        'moscow2' => array('Москва', '28 мая', '15', 'http://www.mandri.lg.ua/kcfinder/img/images/Moscow-1600x900-005.jpg'),
         'piter2' => array('Санкт-Петербург', '29 мая', '15', 'http://ved69.ru/images/Spb.jpg'),
 	'kemerovo223' => array('Кемерово', '02 июня', '15', 'http://bestmaps.ru/files/content_images/20121110130240.jpg'),
         'tumen' => array('Тюмень', '05 июня', '15', 'http://www.argoturs.ru/userfiles/image/catalog/original/1355322418_dsc05201.jpg?PHPSESSID=f10466dcb0ccab58cf928330ab91c007'),
+	'moscow2' => array('Москва', '19 июня', '15', 'http://www.mandri.lg.ua/kcfinder/img/images/Moscow-1600x900-005.jpg'),
+	'irkutsk' => array('Иркутск', '03 июля', '15', 'http://voyage-irk.ru/wp-content/uploads/2014/04/BEQhHrt4qHg.jpg'),
+        'bratsk' => array('Братск', '10 июля', '15', 'http://igcmd.ru/upload/news/bratsk-russia-city-street-view.jpg'),
         ),
     '44'  => array(
 	//'stav44' => array('Ставрополь', '15 мая', '15', 'http://photo.vsedomarossii.ru/area_26/city_1651/street_9260/101850_3.jpg'),
-	'karsnodar44' => array('Краснодар', '29 мая', '15', 'http://kudago.com/media/images/news/06/06/06065deb753e5c35232e197ef8c5ccd1.jpg'),
+	'krasnodar44' => array('Краснодар', '10 июня', '15', 'http://kudago.com/media/images/news/06/06/06065deb753e5c35232e197ef8c5ccd1.jpg'),
         //'tumen' => array('Тюмень', '24 апреля', '15', 'http://www.argoturs.ru/userfiles/image/catalog/original/1355322418_dsc05201.jpg?PHPSESSID=f10466dcb0ccab58cf928330ab91c007'),
         //'piter' => array('Санкт-Петербург', '29 апреля', '15', 'http://ved69.ru/images/Spb.jpg'),
         //'vladimir' => array('Владимир', '03 апреля', '15', 'http://www.zapoved.ru/photos/9bab/db77/834c/1083/95b7/ee05/50a8/bbba/large.jpg?2880811'),
@@ -94,7 +96,7 @@ $semArray = array(
         ),
     '223n' => array(
 	'tomsk223' => array('Томск', '26 мая', '15', 'http://voinskayachast.ru/wp-content/uploads/2015/01/%D1%82%D0%BE%D0%BC%D1%81%D0%BA.jpg'),
-	'murmansk' => array('Мурманск', '08 июня', '15', 'http://miriam-tour.ru/pic/kola_murmansk_01b.jpg'),
+	//'murmansk' => array('Мурманск', '08 июня', '15', 'http://miriam-tour.ru/pic/kola_murmansk_01b.jpg'),
         'arch223_2' => array('Архангельск', '09 июня', '', 'http://fotki29.ru/images/1/dvina_arkhangelsk_.jpg'),
 	),
     );
