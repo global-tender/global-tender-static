@@ -19,7 +19,8 @@
                             <td class="table-title">Отдел по оранизации семинаров</td>
                         </tr>
                         <tr>
-                            <td><span class="td-phone">+7 (961) 286-91-31</span></td>
+                            <!--<td><span class="td-phone">+7 (961) 286-91-31</span></td>-->
+			    <td><span class="td-phone">+7 (495) 125-09-05</span></td>
                         </tr>
                         <tr>
                             <td><a href="mailto:global-tender@yandex.ru" class="us-link">global-tender@yandex.ru</td>
