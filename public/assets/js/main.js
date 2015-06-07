@@ -35,6 +35,28 @@ $(function(){
 		});
 	}*/
 
+
+        $('.wrapper-main').hover(function(){
+              $('.down-link').animate({"bottom":"-2%"}, 'slow');
+        }, function(){
+	      $('.down-link').animate({"bottom":"-2%"}, 'slow');
+	});
+        $('.wrapper-main').hover(function(){
+              $('.down-link').animate({"bottom":"2%"}, 'slow');
+        }, function() {
+	      $('.down-link').animate({"bottom":"2%"}, 'slow');
+	});
+
+	$('.main-info').hover(function(){
+              $('.down-link').animate({"bottom":"-2%"}, 'slow');
+        }, function(){
+              $('.down-link').animate({"bottom":"-2%"}, 'slow');
+        });
+        $('.main-info').hover(function(){
+              $('.down-link').animate({"bottom":"2%"}, 'slow');
+        }, function() {
+              $('.down-link').animate({"bottom":"2%"}, 'slow');
+        });
 });
 
 var Popup = (function(){
