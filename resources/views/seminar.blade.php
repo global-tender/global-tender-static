@@ -82,7 +82,7 @@ $semArray = array(
 	'chita' => array('Чита', '21 июля', '15', 'http://www.infokart.ru/wp-content/uploads/2011/04/thita.jpg'),
         ),
     '44'  => array(
-	'krasnodar44' => array('Краснодар', '10 июня', '15', 'http://kudago.com/media/images/news/06/06/06065deb753e5c35232e197ef8c5ccd1.jpg'),
+	//'krasnodar44' => array('Краснодар', '10 июня', '15', 'http://kudago.com/media/images/news/06/06/06065deb753e5c35232e197ef8c5ccd1.jpg'),
 	'stav44' => array('Ставрополь', '08 июля', '15', 'http://photo.vsedomarossii.ru/area_26/city_1651/street_9260/101850_3.jpg'),
         //'tumen' => array('Тюмень', '24 апреля', '15', 'http://www.argoturs.ru/userfiles/image/catalog/original/1355322418_dsc05201.jpg?PHPSESSID=f10466dcb0ccab58cf928330ab91c007'),
         //'piter' => array('Санкт-Петербург', '29 апреля', '15', 'http://ved69.ru/images/Spb.jpg'),
@@ -102,6 +102,7 @@ $semArray = array(
 	//'tomsk223' => array('Томск', '26 мая', '15', 'http://voinskayachast.ru/wp-content/uploads/2015/01/%D1%82%D0%BE%D0%BC%D1%81%D0%BA.jpg'),
 	//'murmansk' => array('Мурманск', '08 июня', '15', 'http://miriam-tour.ru/pic/kola_murmansk_01b.jpg'),
         'arch223_2' => array('Архангельск', '09 июня', '', 'http://fotki29.ru/images/1/dvina_arkhangelsk_.jpg'),
+	'makhachkala' => array('Махачкала', '13 июля', '15', 'http://radiomap.eu/ru/kavkaz/makhachkala_01.jpg'),
 	),
     );
 
