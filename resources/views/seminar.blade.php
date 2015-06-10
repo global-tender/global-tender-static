@@ -75,10 +75,11 @@ $semArray = array(
         //'tumen' => array('Тюмень', '05 июня', '15', 'http://www.argoturs.ru/userfiles/image/catalog/original/1355322418_dsc05201.jpg?PHPSESSID=f10466dcb0ccab58cf928330ab91c007'),
 	'moscow2' => array('Москва', '19 июня', '15', 'http://www.mandri.lg.ua/kcfinder/img/images/Moscow-1600x900-005.jpg'),
 	'ryzan' => array('Рязань', '22 июня', '15', 'http://ryazan.igid.ru/img/upload/photos/66939df1c60a354c5c76e5def4cddd6a_1024_0.jpg'),
-	'kazan223' => array('Казань', '01 июля', '15', 'http://mir-travel.com/images/content/destinations/%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C8.jpg'),
+	'kazan223' => array('Казань', '08 июля', '15', 'http://mir-travel.com/images/content/destinations/%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C8.jpg'),
 	'irkutsk' => array('Иркутск', '03 июля', '15', 'http://voyage-irk.ru/wp-content/uploads/2014/04/BEQhHrt4qHg.jpg'),
 	'petroz223' => array('Петрозаводск', '03 июля', '15', 'http://www.vokrugsveta.ru/encyclopedia/images/e/e4/Petrozavodsk_Naberezhnaya.jpg'),
         'bratsk' => array('Братск', '09 июля', '15', 'http://igcmd.ru/upload/news/bratsk-russia-city-street-view.jpg'),
+	'surgut' => array('Сургут', '15 июля', '15', 'http://www.surgeo.ru/wp-content/uploads/2012/02/%D0%92%D0%B8%D0%B4-%D0%BD%D0%B0-%D0%93%D1%80%D0%B5%D1%81-%D0%A1%D1%83%D1%80%D0%B3%D1%83%D1%82-%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F-%D0%92%D0%B5%D0%BD%D0%B5%D1%86%D0%B8%D1%8F.jpg'),
 	'ulan_ude' => array('Улан-Удэ', '16 июля', '15', 'http://fotki.ykt.ru/albums/userpics/35735/42_73132.jpg'),
 	'chita' => array('Чита', '21 июля', '15', 'http://www.infokart.ru/wp-content/uploads/2011/04/thita.jpg'),
         ),
@@ -103,7 +104,7 @@ $semArray = array(
 	//'tomsk223' => array('Томск', '26 мая', '15', 'http://voinskayachast.ru/wp-content/uploads/2015/01/%D1%82%D0%BE%D0%BC%D1%81%D0%BA.jpg'),
 	//'murmansk' => array('Мурманск', '08 июня', '15', 'http://miriam-tour.ru/pic/kola_murmansk_01b.jpg'),
         //'arch223_2' => array('Архангельск', '09 июня', '', 'http://fotki29.ru/images/1/dvina_arkhangelsk_.jpg'),
-	'makhachkala' => array('Махачкала', '13 июля', '15', 'http://radiomap.eu/ru/kavkaz/makhachkala_01.jpg'),
+	//'makhachkala' => array('Махачкала', '13 июля', '15', 'http://radiomap.eu/ru/kavkaz/makhachkala_01.jpg'),
 	),
     );
 
