@@ -85,7 +85,7 @@ $semArray = array(
         ),
     '44'  => array(
 	//'krasnodar44' => array('Краснодар', '10 июня', '15', 'http://cdn2.img22.ria.ru/images/63571/94/635719458.jpg'),
-	'stav44' => array('Ставрополь', '08 июля', '15', 'http://photo.vsedomarossii.ru/area_26/city_1651/street_9260/101850_3.jpg'),
+	'stav44' => array('Ставрополь', '08 июля', '15', 'http://stavgorod.ru/assets/components/stavgorod/connector2.php?action=web/getfile&filename=17818&ld=21474&image.jpg'),
 	//'tumen' => array('Тюмень', '24 апреля', '15', 'http://www.argoturs.ru/userfiles/image/catalog/original/1355322418_dsc05201.jpg?PHPSESSID=f10466dcb0ccab58cf928330ab91c007'),
 	//'piter' => array('Санкт-Петербург', '29 апреля', '15', 'http://ved69.ru/images/Spb.jpg'),
         //'vladimir' => array('Владимир', '03 апреля', '15', 'http://www.zapoved.ru/photos/9bab/db77/834c/1083/95b7/ee05/50a8/bbba/large.jpg?2880811'),
