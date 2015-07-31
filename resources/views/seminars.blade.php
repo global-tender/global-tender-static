@@ -83,6 +83,7 @@ $semArray = array(
 	//'chita'	=> array('Чита', '21 июля', '15', 'http://www.infokart.ru/wp-content/uploads/2011/04/thita.jpg'),
 	'kirov'		=> array('Киров', '11 августа', '15', 'http://ic.pics.livejournal.com/argoclassic/40303180/5971/original.jpg'),
 	'yakutsk'       => array('Якутск', '14 августа', '15', 'http://cs-msk-fd-2.ykt2.ru/media/upload/photo/2014/09/11/vid_sverkhu_novogo_starogo_goroda.jpeg'),
+	'rnd'   => array('Ростов-на-Дону', '14 августа', '15', 'http://www.worldlab.co/wp-content/uploads/2015/02/%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2.jpg'),
 	'irkutsk' => array('Иркутск', '21 августа', '15', 'http://voyage-irk.ru/wp-content/uploads/2014/04/BEQhHrt4qHg.jpg'),
 	'astrahan' => array('Астрахань', '28 августа', '15', 'http://nesiditsa.ru/wp-content/uploads/2012/07/Astrahan.jpeg'),
         ),
