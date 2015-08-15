@@ -296,7 +296,8 @@ h2.title {
 }
 .wrapper-good {
   position: relative;
-  background: url(../img/back_good.jpg);
+  /*background: url(../img/back_good.jpg);*/
+  background: url(../img/default-lg.jpg);
   background-size: cover;
   color: #fff;
 }
@@ -418,7 +419,7 @@ h2.title {
   margin-right: 15px;
   background: #fff;
   height: 100%;
-  width: 12%;
+  width: 14%;
 }
 .seminars .sem-date .year {
   position: relative;
