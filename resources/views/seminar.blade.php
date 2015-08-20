@@ -134,7 +134,7 @@ $semArray = array(
         <main class="wrapper clearfix">
 
         <?php 
-        if($_GET['act'] == '223' && $_GET['sem'] != 'rnd') {
+        if($_GET['act'] == '223' && $_GET['sem'] != 'msk') {
         ?>
 
             <div class="sem-info">
@@ -259,7 +259,7 @@ $semArray = array(
 
 
             <?php
-            } if($_GET['act'] == '223' && $_GET['sem'] == 'rnd') {
+            } if( ($_GET['act'] == '223' && $_GET['sem'] == 'rnd') || ($_GET['act'] == '223' && $_GET['sem'] == 'msk') ) {
             ?>
 
 
@@ -281,17 +281,14 @@ $semArray = array(
                 <div class="row">
                     <span class="sem-name">Электронная почта:</span><span class="sem-val">global-tender@yandex.ru</span>
                 </div>
-                <div class="row">
-                    <span class="sem-name">Место проведения:</span><span class="sem-val">г. Ростов-на-Дону, ул.Красноармейская дом 147 «Центер развития бизнеса  Сбербанка России»</span>
-                </div>
                 <hr>
                 <div class="row pd-bot-sml">
                     <b><center>«Новые требования и практика применения федерального закона «о закупках товаров, работ, услуг отдельными видами юридических лиц» от 18.07.2011г. №223-ФЗ»</center></b><br />
                 </div>
                 <hr>
-                <div class='row pd-bot-sml'>
+                <div class='row'>
                     <span>
-                        Проводит семинар  аттестованный ОАО «ЕЭТП» преподаватель Постовалова Снежана Олеговна
+                    <!--    Проводит семинар  аттестованный ОАО «ЕЭТП» преподаватель Постовалова Снежана Олеговна-->
                     </span>
                 </div>
 
