@@ -299,6 +299,7 @@ h2.title {
   /*background: url(../img/back_good.jpg);*/
   background: url(../img/default-lg.jpg);
   background-size: cover;
+  background-position: center;
   color: #fff;
 }
 .wrapper-good:before {
@@ -308,7 +309,7 @@ h2.title {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.82);
   z-index: 1;
 }
 .wrapper-good .wrapper {
@@ -836,20 +837,28 @@ h2.title {
 }
 .services .service-item .title {
   padding: 20px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  font-size: 25px;
+  font-size: 18px !important;
   background: #5f7982;
   color: #fff;
   font-weight: 300;
+
+    padding: 20px;
+    font-size: 25px;
+    background: rgb(80, 91, 67);
+    color: #fff;
+    font-weight: 400;
+    border: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .services .service-item .title i {
   margin-right: 10px;
 }
 .services .service-item .service-cont {
-  background: rgba(154, 177, 217, 0.25);
+  background: rgb(62, 80, 80);
   padding: 20px;
+  color: #fff;
+  border-top: 2px solid #fff;
 }
 .services .service-item .service-list {
   list-style: none;
@@ -875,8 +884,10 @@ h2.title {
   margin-top: 10px;
 }
 .services .contact-block {
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    background: rgb(84, 111, 106);
+    color: #fff;
+    text-align: center;
 }
 .services .contact-block .c-title {
   font-size: 18px;
@@ -891,7 +902,7 @@ h2.title {
   font-size: 14px;
 }
 .services .contact-block .contact-li a {
-  color: #000;
+  color: #fff;
 }
 /* ==========================================================================
    Helper classes
@@ -1049,4 +1060,12 @@ h2.title {
   h3 {
     page-break-after: avoid;
   }
+}
+
+.services .service-item {
+  width: 100% !important;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #fff;
 }
