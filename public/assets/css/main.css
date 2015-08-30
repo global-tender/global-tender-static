@@ -700,25 +700,38 @@ h2.title {
 }
 .feed-imgs {
   font-size: 0;
-  /*img {
-        width: 25%;
-    }*/
 }
-.feed-imgs .feedback-img {
-  display: inline-block;
-  width: 50%;
-  padding: 2px;
-  height: 500px;
-  border: 1px solid #ccc;
-  background-position: top center;
-  background-size: cover;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+
 .feed-imgs .feedback-img img {
-  max-width: 100%;
+  width: 305px;
+  margin-right: 10px;
+  border: 2px solid #999;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  vertical-align: top;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  z-index: 10;
+  background-color: #fff;
 }
+
+.feed-imgs .feedback-img img:hover {
+  -webkit-transform: scale(1.01, 1.01);
+  -ms-transform: scale(1.01, 1.01);
+  transform: scale(1.01, 1.01);
+  
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  z-index: 12;
+}
+
+
+
 .spec-title {
   position: relative;
   margin-bottom: 25px;
@@ -730,7 +743,7 @@ h2.title {
   content: "";
   position: absolute;
   z-index: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
   top: 0;
   left: 0;
   right: 0;
