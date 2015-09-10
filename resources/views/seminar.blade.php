@@ -13,109 +13,21 @@
 
 $semArray = array(
     '223' => array(
-        // 'nov223' => array('Великий Новгород', '11 июля', '', 'img/city/vel_nov.jpg'),         
-        // 'kostroma223' => array('Кострома', '24 июля', '', 'img/city/kostroma.jpg'),         
-        // 'yaroslavl223' => array('Ярославль', '25 июля', '', 'img/city/yaroslavl.jpg'),
-        // 'vologda223' => array('Вологда', '01 августа', '', 'http://tourvologda.ru/images/kr_plosh_fl.jpg'),
-        // 'piter223' => array('Санкт-Петербург', '15 августа', '', 'http://ved69.ru/images/Spb.jpg'),
-        // 'yl223' => array('Ульяновск', '08 августа', '', 'http://xn----7sbaba0dyat1arg.xn--p1ai/image/3panorama-1.jpg'),
-        // 'vladimir223' => array('Владимир', '11 августа', '', 'http://www.zapoved.ru/photos/9bab/db77/834c/1083/95b7/ee05/50a8/bbba/large.jpg?2880811'),
-        // 'birb223' => array('Биробиджан', '15 сентября', '', 'http://biradm.ru/files/potr/pict/2012_2.jpg'), 
-        // 'petroz223' => array('Петрозаводск', '28 августа', '', 'http://www.vokrugsveta.ru/encyclopedia/images/e/e4/Petrozavodsk_Naberezhnaya.jpg'),
-        // 'vor223' => array('Воронеж', '22 августа', '', 'http://bestmaps.ru/files/content_images/20130204134915.jpg'), 
-        // 'cheb223' => array('Чебоксары', '29 августа', '', 'http://www.mrtrans.ru/uploads/tiny/ceb.jpg'), 
-        // 'saransk223' => array('Саранск', '05 сентября', '', 'http://www.udikov.ru/wp-content/uploads/2012/11/Saransk.jpg'), 
-        // 'moscow223' => array('Москва', '12 сентября', '', 'http://www.mandri.lg.ua/kcfinder/img/images/Moscow-1600x900-005.jpg'), 
-        // 'kaliningrad223' => array('Псков', '15 сентября', '', 'http://turflot.ru/files/img/holidaysrussia/18/imya-fajla_250.jpg'), 
-        // 'xab223' => array('Хабаровск', '15 сентября', '', 'http://organum-visus.com/sites/default/files/styles/1024x768/public/news_mini_top_img/khabarovsk-organum-visus-eyenews-120712g.jpeg?itok=C7U8OkzE&slideshow=true&slideshowAuto=false&slideshowSpeed=4000&speed=350&transition=fade'),       
-        // 'vlad223' => array('Владивосток', '16 сентября', '', 'http://s.pikabu.ru/post_img/big/2013/10/23/5/1382508326_1790634624.jpg'), 
-        //'krasn223' => array('Красноярск', '03 октября', '', 'http://img-fotki.yandex.ru/get/5708/dedmaxopka.12/0_5737b_b8cfde9d_orig'),
-        //'yo223' => array('Йошкар-Ола', '10 октября', '', 'http://www.udikov.ru/wp-content/uploads/2013/01/Yoyo2.jpg'),
-        //'chel223' => array('Челябинск', '17 октября', '', 'http://img.balakirev.me/2014/03-chelyabinsk-from-height/11.jpg'),
-        //'elista223' => array('Элиста', '17 октября', '', 'http://ttkufo.ru/sites/default/files/images/gallery/elista_07_by_abirvalg1989-d4yx2xw.jpg'),
-        //'kurgan223' => array('Курган', '18 октября', '', 'http://ic.pics.livejournal.com/sleeppy_peeppy/29526628/75418/original.jpg'),
-        //'piter223' => array('Санкт-Петербург', '20 октября', '', 'http://ved69.ru/images/Spb.jpg'),
-        //'nizh223' => array('Нижний Новгород', '27 октября', '', 'http://www.zercalo.org/ihost/images/2014/06/17/%D0%B1%D0%B0%D0%B1%D1%8C%D0%B5_%D0%BB%D0%B5%D1%82%D0%BE_%D0%BD%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9_%D0%BD%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B48.jpg'),
-        //'arch223' => array('Архангельск', '31 октября', '', 'http://fotki29.ru/images/1/dvina_arkhangelsk_.jpg'),
-        //'stav223' => array('Ставрополь', '06 ноября', '', 'http://photo.vsedomarossii.ru/area_26/city_1651/street_9260/101850_3.jpg'),
-        //'eka223' => array('Екатеринбург', '28 ноября', '', 'http://www.ekaterinburg.tv/images/images_city/em57.jpg'),
-        //'nov223' => array('Новосибирск', '21 ноября', '', 'http://upload.wikimedia.org/wikipedia/commons/5/58/%D0%92%D0%BE%D0%BA%D0%B7%D0%B0%D0%BB_%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA%D0%B0.jpg'),
-        //'bar223' => array('Барнаул', '22 ноября', '', 'http://static.panoramio.com/photos/large/55681876.jpg'),
-        //'yfa223' => array('Уфа', '04 декабря', '', 'http://cs.holaplaya.com/uploads/sites/3/2014/10/137546_original.jpg'),
-        //'vladimir223' => array('Владимир', '11 декабря', '', 'http://www.zapoved.ru/photos/9bab/db77/834c/1083/95b7/ee05/50a8/bbba/large.jpg?2880811'),
-        //'ivanovo223' => array('Иваново', '11 декабря', '', 'http://bestmaps.ru/files/content_images/20130603114336.jpg'),
-        //'blag' => array('Благовещенск', '15 января', '15', 'http://www.infokart.ru/wp-content/uploads/2013/02/blagoveshchensk_gorod.jpg'),
-        //'xab' => array('Хабаровск', '16 января', '15', 'http://organum-visus.com/sites/default/files/styles/1024x768/public/news_mini_top_img/khabarovsk-organum-visus-eyenews-120712g.jpeg?itok=C7U8OkzE&slideshow=true&slideshowAuto=false&slideshowSpeed=4000&speed=350&transition=fade'),       
-        //'yaroslavl' => array('Ярославль', '2 февраля', '15', 'img/city/yaroslavl.jpg'),
-        //'murmansk' => array('Мурманск', '6 февраля', '15', 'http://miriam-tour.ru/pic/kola_murmansk_01b.jpg'),
-        //'perm' => array('Пермь', '9 февраля', '15', 'http://cs14114.vk.me/c540101/v540101358/18bc/RMQMN0TirLc.jpg'),
-        //'kaliningrad' => array('Калининград', '13 февраля', '15', 'http://turflot.ru/files/img/holidaysrussia/18/otdih-v-kaliningradskoj-oblasti---starinnie-ulochki-kaliningradskoj-oblasti_250.jpg'),
-        //'tumen' => array('Тюмень', '16 февраля', '15', 'http://www.argoturs.ru/userfiles/image/catalog/original/1355322418_dsc05201.jpg?PHPSESSID=f10466dcb0ccab58cf928330ab91c007'),
-        //'volgograd' => array('Волгоград', '19 февраля', '15', 'http://skuki.net/photos/5076/b5ddd5a7.jpg'),
-        //'orel' => array('Орел', '26 февраля', '15', 'http://www.megatur.ru/images/turi_v_orel.jpg'),
-        //'tula' => array('Тула', '27 февраля', '15', 'http://www.bintrip.net/news/64/img_64_2.jpg'),
-        //'surgut' => array('Сургут', '02 марта', '15', 'http://www.surgeo.ru/wp-content/uploads/2012/02/%D0%92%D0%B8%D0%B4-%D0%BD%D0%B0-%D0%93%D1%80%D0%B5%D1%81-%D0%A1%D1%83%D1%80%D0%B3%D1%83%D1%82-%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F-%D0%92%D0%B5%D0%BD%D0%B5%D1%86%D0%B8%D1%8F.jpg'),
-        //'rostov' => array('Ростов-на-Дону', '04 марта', '', 'http://upload.wikimedia.org/wikipedia/ru/0/0f/%D0%9D%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D0%B0%D1%8F_%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2%D0%B0-%D0%BD%D0%B0-%D0%94%D0%BE%D0%BD%D1%83.jpg'),
-        //'kursk' => array('Курск', '05 марта', '15', 'http://bestmaps.ru/files/content_images/20121211113127.jpg'),
-        //'oren' => array('Оренбург', '19 марта', '15', 'http://www.orinfo.ru/sites/default/files/photo_of_the_day/sg103970_66_68_fused-4web-1.jpg'),
-        //'syktyvkar' => array('Сыктывкар', '20 марта', '15', 'http://bestmaps.ru/files/content_images/20131202120012.jpg'),
-        //'krasn' => array('Красноярск', '20 марта', '15', 'http://img-fotki.yandex.ru/get/5708/dedmaxopka.12/0_5737b_b8cfde9d_orig'),
-        //'tver' => array('Тверь', '23 марта', '15', 'http://giraftv.ru/docs/image/tver/zastavka_tver_sovetskaya_ploschad.jpg'),
-        //'smolensk' => array('Смоленск', '02 апреля', '15', 'http://wwportal.com/data/uploads/2014/04/Smolensk-Dnepr.jpg'),
-        //'piter' => array('Санкт-Петербург', '03 апреля', '15', 'http://ved69.ru/images/Spb.jpg'),
-        //'saratov' => array('Саратов', '09 апреля', '15', 'http://www.megateks.net/images/imglib/Saratov.jpg'),
-        //'moscow' => array('Москва', '20 апреля', '15', 'http://www.mandri.lg.ua/kcfinder/img/images/Moscow-1600x900-005.jpg'),
-        //'penza' => array('Пенза', '15 апреля', '15', 'http://sizz.name/wp-content/uploads/2013/08/G0010343.jpg'),
-        //'voronezh' => array('Воронеж', '24 апреля', '15', 'http://bestmaps.ru/files/content_images/20130204134915.jpg'), 
-        //'stav223' => array('Ставрополь', '27 апреля', '15', 'http://photo.vsedomarossii.ru/area_26/city_1651/street_9260/101850_3.jpg'),
-        //'kurgan223' => array('Курган', '15 мая', '15', 'http://ic.pics.livejournal.com/sleeppy_peeppy/29526628/75418/original.jpg'),
-        //'piter2' => array('Санкт-Петербург', '29 мая', '15', 'http://ved69.ru/images/Spb.jpg'),
-    //'kemerovo223' => array('Кемерово', '02 июня', '15', 'http://bestmaps.ru/files/content_images/20121110130240.jpg'),
-        //'tumen' => array('Тюмень', '05 июня', '15', 'http://www.argoturs.ru/userfiles/image/catalog/original/1355322418_dsc05201.jpg?PHPSESSID=f10466dcb0ccab58cf928330ab91c007'),
-    //'moscow2' => array('Москва', '19 июня', '15', 'http://www.mandri.lg.ua/kcfinder/img/images/Moscow-1600x900-005.jpg'),
-    //'ryzan' => array('Рязань', '22 июня', '15', 'http://ryazan.igid.ru/img/upload/photos/66939df1c60a354c5c76e5def4cddd6a_1024_0.jpg'),
-    //'kazan223' => array('Казань', '08 июля', '15', 'http://mir-travel.com/images/content/destinations/%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C8.jpg'),
-    //'petroz223' => array('Петрозаводск', '07 июля', '15', 'http://www.vokrugsveta.ru/encyclopedia/images/e/e4/Petrozavodsk_Naberezhnaya.jpg'),
-        //'bratsk' => array('Братск', '09 июля', '15', 'http://igcmd.ru/upload/news/bratsk-russia-city-street-view.jpg'),
-    //'surgut' => array('Сургут', '15 июля', '15', 'http://www.surgeo.ru/wp-content/uploads/2012/02/%D0%92%D0%B8%D0%B4-%D0%BD%D0%B0-%D0%93%D1%80%D0%B5%D1%81-%D0%A1%D1%83%D1%80%D0%B3%D1%83%D1%82-%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F-%D0%92%D0%B5%D0%BD%D0%B5%D1%86%D0%B8%D1%8F.jpg'),
-    //'ulan_ude' => array('Улан-Удэ', '29 июля', '15', 'http://fotki.ykt.ru/albums/userpics/35735/42_73132.jpg'),
-    //'chita' => array('Чита', '21 июля', '15', 'http://www.infokart.ru/wp-content/uploads/2011/04/thita.jpg'),
-    //'kirov'         => array('Киров', '11 августа', '15', 'http://ic.pics.livejournal.com/argoclassic/40303180/5971/original.jpg'),
-    //'yakutsk'       => array('Якутск', '14 августа', '15', 'http://cs-msk-fd-2.ykt2.ru/media/upload/photo/2014/09/11/vid_sverkhu_novogo_starogo_goroda.jpeg'),
-    //'rnd'   => array('Ростов-на-Дону', '14 августа', '15', 'http://www.worldlab.co/wp-content/uploads/2015/02/%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2.jpg'),
-    //'irkutsk' => array('Иркутск', '21 августа', '15', 'http://voyage-irk.ru/wp-content/uploads/2014/04/BEQhHrt4qHg.jpg'),
-    //'astrahan' => array('Астрахань', '28 августа', '15', 'http://nesiditsa.ru/wp-content/uploads/2012/07/Astrahan.jpeg'),
-    'saransk223' => array('Саранск', '18 сентября', '15', 'http://www.udikov.ru/wp-content/uploads/2012/11/Saransk.jpg'),
-    'lpсk223' => array('Липецк', '18 сентября', '15', 'http://www.infokart.ru/wp-content/uploads/2011/04/lipeck.jpg'),
-    'surgut' => array('Сургут', '25 сентября', '15', 'http://www.surgeo.ru/wp-content/uploads/2012/02/%D0%92%D0%B8%D0%B4-%D0%BD%D0%B0-%D0%93%D1%80%D0%B5%D1%81-%D0%A1%D1%83%D1%80%D0%B3%D1%83%D1%82-%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F-%D0%92%D0%B5%D0%BD%D0%B5%D1%86%D0%B8%D1%8F.jpg'),
-    'rnd' => array('Ростов-на-Дону', '29 сентября', '15', 'http://www.worldlab.co/wp-content/uploads/2015/02/%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2.jpg'),
-    'piter' => array('Санкт-Петербург', '02 октября', '15', 'http://ved69.ru/images/Spb.jpg'),
-    'yaroslavl223' => array('Ярославль', '12 октября', '15', 'http://ic.pics.livejournal.com/drugoi/484155/1892625/1892625_original.jpg'),
-        ),
+        'saransk223' => array('Саранск', '18 сентября', '15', 'http://www.udikov.ru/wp-content/uploads/2012/11/Saransk.jpg'),
+        'lpсk223' => array('Липецк', '18 сентября', '15', 'http://www.infokart.ru/wp-content/uploads/2011/04/lipeck.jpg'),
+        'surgut' => array('Сургут', '25 сентября', '15', 'http://www.surgeo.ru/wp-content/uploads/2012/02/%D0%92%D0%B8%D0%B4-%D0%BD%D0%B0-%D0%93%D1%80%D0%B5%D1%81-%D0%A1%D1%83%D1%80%D0%B3%D1%83%D1%82-%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F-%D0%92%D0%B5%D0%BD%D0%B5%D1%86%D0%B8%D1%8F.jpg'),
+        'rnd' => array('Ростов-на-Дону', '29 сентября', '15', 'http://www.worldlab.co/wp-content/uploads/2015/02/%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2.jpg'),
+        'piter' => array('Санкт-Петербург', '02 октября', '15', 'http://ved69.ru/images/Spb.jpg'),
+        'yaroslavl223' => array('Ярославль', '12 октября', '15', 'http://ic.pics.livejournal.com/drugoi/484155/1892625/1892625_original.jpg'),
+    ),
     '44'  => array(
-    //'belgorod' => array('Белгород', '14 августа', '15', 'http://trans-continental.ru/wp-content/uploads/2013/12/41907831.jpg'),
-    //'irkutsk' => array('Иркутск', '20 августа', '15', 'http://voyage-irk.ru/wp-content/uploads/2014/04/BEQhHrt4qHg.jpg'),
-    //'krasnodar44' => array('Краснодар', '10 июня', '15', 'http://kudago.com/media/images/news/06/06/06065deb753e5c35232e197ef8c5ccd1.jpg'),
-    //'stav44' => array('Ставрополь', '08 июля', '15', 'http://stavgorod.ru/assets/components/stavgorod/connector2.php?action=web/getfile&filename=17818&ld=21474&image.jpg'),
-        //'tumen' => array('Тюмень', '24 апреля', '15', 'http://www.argoturs.ru/userfiles/image/catalog/original/1355322418_dsc05201.jpg?PHPSESSID=f10466dcb0ccab58cf928330ab91c007'),
-        //'piter' => array('Санкт-Петербург', '29 апреля', '15', 'http://ved69.ru/images/Spb.jpg'),
-        //'vladimir' => array('Владимир', '03 апреля', '15', 'http://www.zapoved.ru/photos/9bab/db77/834c/1083/95b7/ee05/50a8/bbba/large.jpg?2880811'),
-        //'belgorod' => array('Белгород', '30 января', '15', 'http://trans-continental.ru/wp-content/uploads/2013/12/41907831.jpg'),
-        //'voronezh' => array('Воронеж', '18 февраля', '15', 'http://bestmaps.ru/files/content_images/20130204134915.jpg'), 
-        //'ryzan' => array('Рязань', '18 февраля', '15', 'http://ryazan.igid.ru/img/upload/photos/66939df1c60a354c5c76e5def4cddd6a_1024_0.jpg'), 
-        //'stavropol' => array('Ставрополь', '27 февраля', '15', 'http://photo.vsedomarossii.ru/area_26/city_1651/street_9260/101850_3.jpg'), 
-        //'stav223' => array('Ставрополь', '24 ноября', '', 'http://photo.vsedomarossii.ru/area_26/city_1651/street_9260/101850_3.jpg'), 
-        //'rostov44' => array('Ростов-на-Дону', '11 декабря', '', 'http://upload.wikimedia.org/wikipedia/ru/0/0f/%D0%9D%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D0%B0%D1%8F_%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2%D0%B0-%D0%BD%D0%B0-%D0%94%D0%BE%D0%BD%D1%83.jpg'), 
-        //'moscow' => array('Москва', '28 ноября', '', 'http://www.mandri.lg.ua/kcfinder/img/images/Moscow-1600x900-005.jpg'),
-        //'arch44' => array('Архангельск', '16 октября', '', 'http://fotki29.ru/images/1/dvina_arkhangelsk_.jpg'),
-        ),
+        
+    ),
     'nal'  => array(
-        ),
+        
+    ),
     '223n' => array(
-    //'tomsk223' => array('Томск', '26 мая', '15', 'http://voinskayachast.ru/wp-content/uploads/2015/01/%D1%82%D0%BE%D0%BC%D1%81%D0%BA.jpg'),
-    //'murmansk' => array('Мурманск', '08 июня', '15', 'http://miriam-tour.ru/pic/kola_murmansk_01b.jpg'),
-    //'arch223_2' => array('Архангельск', '09 июня', '', 'http://fotki29.ru/images/1/dvina_arkhangelsk_.jpg'),
-    //'makhachkala' => array('Махачкала', '13 июля', '15', 'http://radiomap.eu/ru/kavkaz/makhachkala_01.jpg'),
+        
     ),
 );
 
@@ -184,8 +96,8 @@ $semArray = array(
                     <span class="sem-name">Электронная почта:</span><span class="sem-val">global-tender@yandex.ru</span>
                 </div>
                 <hr>
-                <div class="row pd-bot-sml">
-                    <span>Обучение проводят спикеры из Федеральной антимонопольной службы! Последние изменения в законодательстве!</span>
+		<div class="row pd-bot-sml">
+                    <center><span>Обучение проводят спикеры из Федеральной антимонопольной службы! Последние изменения в законодательстве!</span></center><br />
                 </div>
 
                 <table class="seminar-table">
@@ -282,134 +194,111 @@ $semArray = array(
                     <span class="sem-name">Электронная почта:</span><span class="sem-val">global-tender@yandex.ru</span>
                 </div>
                 <hr>
-                <div class="row pd-bot-sml">
-                    <center><span>Обучение проводят спикеры из Федеральной антимонопольной службы! Последние изменения в законодательстве!</span></center><br />
-                </div>
-                <hr>
 
                 <table class="seminar-table">
                     <tr>
                         <td>Время</td>
-                        <td>Тема</td>
+                        <td>Программа семинара</td>
                     </tr>
                     <tr>
-                        <td>09:45-10:00</td>
+                        <td>09:50-10:00</td>
                         <td>
                             <h3>Регистрация участников семинара</h3>
                         </td>
                     </tr>
                     <tr>
-                        <td>10:00-11:30</td>
+                        <td>10:00-11:45</td>
                         <td>
-                            <h3>Федеральный закон от 18 июля 2011 г. № 223-ФЗ «О закупках товаров, работ, услуг отдельными видами юридических лиц».</h3>
+                            <h3>Штрафные санкции по 223-ФЗ:</h3>
                             <ul>
-                                <li>Субъекты регулирования, основные нормы, исключения, сроки вступления в силу.</li>
-                                <li>Законодательное регулирование закупок: связанные федеральные законы, подзаконные нормативные акты.</li>
-                                <li>Обзор произошедших изменений и др.</li>
-                                <li>Преференции для субъектов малого и среднего предпринимательства.</li>
+                                <li>Штрафы за уклонение от электронной формы закупки. Штрафы за неприменение 44-ФЗ заказчиками, подпадающими под 223-ФЗ. Ответственность за нарушения сроков размещения информации. Нарушения по составу извещения и документации.Нарушения по требованиям к участникам;</li>
+                                <li>Реестр недобросовестных поставщиков.</li>
                             </ul>
 
-                            <h3>Планирование закупок</h3>
+                            <h3>Особенности планирования и информационного обеспечения закупок в 2015-2016 гг.</h3>
                             <ul>
-                                <li>Постановление Правительства РФ № 932</li>
-                                <li>Содержание и форма плана, сроки публикации и исключения.</li>
+                                <li>Постановление Правительства РФ № 1132 от 31.10.2014 «О порядке ведения реестра договоров…». Приказ Минфина « О порядке формирования информации и документов, а также обмена информацией и документами между заказчиком и Федеральным казначейством в целях ведения реестра договоров, заключенных заказчиками по результатам закупки» от 29.12.2014 № 173н.;</li>
+                                <li>Состав реестра договоров с 2015 и 2016гг.;</li>
+                                <li>Особенности заявки участника закупки в связи с введением реестра договоров;</li>
+                                <li>Документы, подаваемые заказчиками в реестр договоров при заключении, изменении, расторжении и исполнении договоров, сроки подачи таких документов;</li>
+                                <li>Действия заказчика, которые необходимо предпринять, чтобы не вносить в реестр договоров мелкие договора.</li>
                             </ul>
 
-                            <h3>Положение о закупке</h3>
-                            <ul>
-                                <li>Требования 223-ФЗ к Положению о закупке: содержание, порядок утверждения и сроки публикации.</li>
-                                <li>Этапы закупочной деятельности заказчика и структура Положения о закупке</li>
-                                <li>Изменение Положения о закупке: порядок и сроки внесения</li>
-                            </ul>
-
-                            <h3>Информационное обеспечение закупок</h3>
-                            <ul>
-                                <li>Требования Постановления Правительства №908</li>
-                                <li>ЕИС, ЭТП. Закупки в электронной форме</li>
-                                <li>Презентация Торгового портала Fabrikant.ru</li>
-                                <li>Извещение и документация</li>
-                                <li>Протоколы</li>
-                                <li>Отчёты о заключенных договорах и Реестр договоров</li>
-                                <li>Отчётность в Росстат</li>
-                            </ul>
                         </td>
                     </tr>
                     <tr>
-                        <td>11:30-11:45</td>
+                        <td>11:45-12:00</td>
                         <td>
-                            <h3>Перерыв</h3>
+                            <h3>Перерыв, кофе-брейк</h3>
                         </td>
                     </tr>
                     <tr>
-                        <td>11:45-13:30</td>
+                        <td>12:00-13:30</td>
                         <td>
-                            <h3>Способы закупок: преимущества и недостатки, правила проведения</h3>
+                            <h3>Преференции для субъектов малого и среднего предпринимательства.</h3>
+                            <p>Постановление Правительства РФ №1352 от 11.12.2014«Об особенностях участия субъектов малого и среднего предпринимательства в закупках товаров, работ, услуг отдельными видами юридических лиц».</p>
                             <ul>
-                                <li>Конкурентные и неконкурентные способы закупок. Требования законодательства к торгам, запросам котировок и запросам предложений. Требования 135-ФЗ «О защите конкуренции»</li>
-                                <li>Открытый аукцион, открытый конкурс, запрос котировок, запрос предложений, конкурентные переговоры и их «модификации».</li>
-                                <li>Закупка у единственного поставщика</li>
+                                <li>Объем закупок у субъектов малого и среднего предпринимательства в 2015 году;</li>
+                                <li>Отчетность по закупкам у субъектов малого и среднего предпринимательства;</li>
+                                <li>Перечни закупок у субъектов малого и среднего предпринимательства, утверждаемые заказчиками. Порядок их размещения в единой информационной системе;</li>
+                                <li>Особенности заявок участников закупки, являющихся субъектами малого и среднего предпринимательства;</li>
+                                <li>Особенности требований по обеспечению заявок и исполнения договоров;</li>
+                                <li>Обязательства по оплате договоров, заключенных с такими субъектами;</li>
                             </ul>
-                            <h3>Дополнительные элементы закупочных процедур.</h3>
+
+                            <h3>Планируемые изменения Федерального закона № 223-ФЗ в 2015 году.</h3>
                             <ul>
-                                <li>Переторжка, предварительный отбор, альтернативные предложения и иные способы сделать процедуру эффективнее</li>
-                                <li>Ограничения со стороны законодательства при введении дополнительных элементов</li>
+                                <li>Закрытый перечень способов закупки. Особенности каждого способа закупки и сроки проведения;</li>
+                                <li>Расширение случаев обжалования со стороны участников закупки;</li>
+                                <li>Этапы способов закупки (предварительный квалификационный отбор, переторжка, конкурентные переговоры и др.) и порядок их включения в положение о закупках;</li>
+                                <li>Возможные схемы проведения конкурентных способов закупок;</li>
+                                <li>Состав протоколов, составляемых в ходе проведения закупки и по итогам закупки;</li>
+                                <li>Понятие «электронной закупки»;</li>
+                                <li>Изменение состава извещения о закупке;</li>
+                                <li>Увеличение отчетности заказчиков по результатам закупки;</li>
                             </ul>
                         </td>
                     </tr>
                     <tr>
                         <td>13:30-14:30</td>
                         <td>
-                            <h3>Обед</h3>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>14:30-15:45</td>
-                        <td>
-                            <h3>Контроль и обжалование действий (бездействий) заказчиков по 223-ФЗ</h3>
-                            <ul>
-                                <li>Обзор часто встречающихся нарушений, практики ФАС и судебной практики</li>
-                                <li>Порядок обжалования действий (бездействий) заказчиков</li>
-                                <li>Реестры недобросовестных поставщиков. Порядок передачи сведений в контрольный орган, причины внесения.</li>
-                                <li><b>Обзор готовящихся изменений.</b></li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>15:45-16:00</td>
-                        <td>
                             <h3>Перерыв</h3>
                         </td>
                     </tr>
                     <tr>
-                        <td>16:00-17:00</td>
+                        <td>14:30-16:00</td>
                         <td>
-                            <h3>Основы работы на портале</h3>
+                            <h3>Практические аспекты применения Федерального закона № 223-ФЗ «О закупках товаров, работ, услуг отдельными видами юридических лиц.</h3>
                             <ul>
-                                <li>Правила работы</li>
-                                <li>Тарифные планы</li>
-                                <li>Правила применения ЭЦП на портале</li>
-                                <li>Секции торговой площадки</li>
-                                <li>Регистрация на портале</li>
+                                <li>Рекомендации по корректировке Положения о закупке. Типовые ошибки в Положении о закупке.</li>
+                                <li>Возможные требования к участникам закупок, товарам, работам, услугам и документы (и требования к ним), которыми участники подтверждают соответствие предъявляемым требованиям.</li>
+                                <li>Электронная форма закупок: перечень, подходы, примеры.</li>
+                                <li>Порядок размещения информации на сайте <a href="http://www.zakupki.gov.ru" target="_blank">www.zakupki.gov.ru</a> с примерами из административной практики.</li>
                             </ul>
-                            <h3>Работа в личном кабинете:</h3>
-                            <ul>
-                                <li>Информация об организации</li>
-                                <li>Личные настройки</li>
-                                <li>Продукция и услуги (работа с классификатором)</li>
-                                <li>Интеграция с ООС 223-ФЗ</li>
-                                <li>Информация о торгах (ваши торги, комментарии к торгам, аналитика, «профессиональная экспертиза», финансирование)</li>
-                                <li>виды процедур закупки</li>
-                                <li>дополнительные элементы процедур закупки</li>
-                                <li>возможность проверки благонадежности поставщиков</li>
-                                <li>возможность проведения процедур закупки только с участием предприятий малого и среднего бизнеса</li>
-                            </ul>
-                            <h3>Размещение и участие в процедуре закупки.</h3>
                         </td>
                     </tr>
                     <tr>
-                        <td>17:00-18:00</td>
+                        <td>16:00-16:10</td>
                         <td>
-                            <h3>«Круглый стол» (ответы на вопросы). Завершение семинара.</h3>
+                            <h3>Перерыв, кофе-брейк</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>16:10-17:20</td>
+                        <td>
+                            <h3>Административная практика реализации 223-ФЗ</h3>
+                            <ul>
+                                <li>Решения ФАС России по нарушениям порядка проведения процедур закупок, в т.ч. по нарушению сроков, неразмещению информации на сайте.</li>
+                                <li>Решения ФАС России по нарушениям в содержании извещения, документации о закупке.</li>
+                                <li>Жалобы на необоснованный отказ к допуску к участию в закупке (необоснованное отклонение заявки) / на необоснованный допуск к участию в закупке и результаты их рассмотрения.</li>
+                                <li>Жалобы на порядок оценки и / или на нарушение порядка определения победителя и результаты их рассмотрения.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>17:20-18:00</td>
+                        <td>
+                            <h3>Ответы на вопросы слушателей</h3>
                         </td>
                     </tr>
                 </table>
