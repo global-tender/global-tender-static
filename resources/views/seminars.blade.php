@@ -86,7 +86,6 @@ $semArray = array(
 	//'rnd'   => array('Ростов-на-Дону', '14 августа', '15', 'http://www.worldlab.co/wp-content/uploads/2015/02/%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2.jpg'),
 	//'irkutsk' => array('Иркутск', '21 августа', '15', 'http://voyage-irk.ru/wp-content/uploads/2014/04/BEQhHrt4qHg.jpg'),
 	//'astrahan' => array('Астрахань', '28 августа', '15', 'http://nesiditsa.ru/wp-content/uploads/2012/07/Astrahan.jpeg'),
-	'saransk223' => array('Саранск', '18 сентября', '15', 'http://www.udikov.ru/wp-content/uploads/2012/11/Saransk.jpg'),
 	'lpсk223' => array('Липецк', '25 сентября', '15', 'http://www.infokart.ru/wp-content/uploads/2011/04/lipeck.jpg'),
 	'rnd' => array('Ростов-на-Дону', '29 сентября', '15', 'http://www.worldlab.co/wp-content/uploads/2015/02/%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2.jpg'),
 	'surgut' => array('Сургут', '02 октября', '15', 'http://www.surgeo.ru/wp-content/uploads/2012/02/%D0%92%D0%B8%D0%B4-%D0%BD%D0%B0-%D0%93%D1%80%D0%B5%D1%81-%D0%A1%D1%83%D1%80%D0%B3%D1%83%D1%82-%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F-%D0%92%D0%B5%D0%BD%D0%B5%D1%86%D0%B8%D1%8F.jpg'),
