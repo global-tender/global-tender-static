@@ -15,6 +15,8 @@ $semArray = array(
     '223' => array(
 	'surgut' => array('Сургут', '02 октября', '15', 'http://www.surgeo.ru/wp-content/uploads/2012/02/%D0%92%D0%B8%D0%B4-%D0%BD%D0%B0-%D0%93%D1%80%D0%B5%D1%81-%D0%A1%D1%83%D1%80%D0%B3%D1%83%D1%82-%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F-%D0%92%D0%B5%D0%BD%D0%B5%D1%86%D0%B8%D1%8F.jpg'),
 	'murmansk' => array('Мурманск', '23 октября', '15', 'http://miriam-tour.ru/pic/kola_murmansk_01b.jpg'),
+	'samara' => array('Самара', '30 октября', '15', 'http://www.nordmarine.ru/wp-content/uploads/2015/04/samara-moskva/Samara_1.jpg'),
+	'stavropol' => array('Ставрополь', '30 октября', '15', 'http://nstarikov.ru/wp-content/uploads/2014/11/%D1%81%D1%82%D0%B0%D0%B2%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C.jpg'),
 	'xab' => array('Хабаровск', '09 ноября', '15', 'http://organum-visus.com/sites/default/files/styles/1024x768/public/news_mini_top_img/khabarovsk-organum-visus-eyenews-120712g.jpeg?itok=C7U8OkzE&slideshow=true&slideshowAuto=false&slideshowSpeed=4000&speed=350&transition=fade'),
         'vlad223' => array('Владивосток', '10 ноября', '15', 'http://s.pikabu.ru/post_img/big/2013/10/23/5/1382508326_1790634624.jpg'),
         'blag' => array('Благовещенск', '11 ноября', '15', 'http://www.infokart.ru/wp-content/uploads/2013/02/blagoveshchensk_gorod.jpg'),
@@ -48,7 +50,7 @@ $semArray = array(
         <main class="wrapper clearfix">
 
         <?php 
-        if( $_GET['act'] == '223' && $_GET['sem'] != 'msk' && $_GET['sem'] != 'rnd' && $_GET['sem'] != 'yaroslavl223' ) {
+        if( $_GET['act'] == '223' && $_GET['sem'] != 'msk' && $_GET['sem'] != 'rnd' && $_GET['sem'] != 'yaroslavl223' && $_GET['sem'] != 'stavropol' ) {
         ?>
 
             <div class="sem-info">
@@ -304,7 +306,7 @@ $semArray = array(
             </div>
 
             <?php
-            } if( ($_GET['act'] == '223' && $_GET['sem'] == 'rnd') || ($_GET['act'] == '223' && $_GET['sem'] == 'msk') ) {
+            } if( ($_GET['act'] == '223' && $_GET['sem'] == 'rnd') || ($_GET['act'] == '223' && $_GET['sem'] == 'msk') || ($_GET['act'] == '223' && $_GET['sem'] == 'stavropol') ) {
             ?>
 
 
