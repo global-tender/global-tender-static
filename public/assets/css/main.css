@@ -15,7 +15,7 @@ textarea {
   color: #222;
 }
 html {
-  font-family: "Open Sans";
+  font-family: "Exo 2", "Open Sans";
   font-size: 1em;
   line-height: 1.4;
 }
@@ -181,7 +181,7 @@ nav {
   -moz-transition: all ease 0.5s;
   -o-transition: all ease 0.5s;
   transition: all ease 0.5s;
-  font: 25px 'Open Sans', sans-serif;
+  font: 25px 'Exo 2', 'Open Sans', sans-serif;
   font-weight: 300;
   display: inline-block;
   padding: 10px 20px;
@@ -342,7 +342,7 @@ h2.title {
   width: 100%;
 }
 .footer .footer-text {
-  font: 14px 'Open Sans', sans-serif;
+  font: 14px 'Exo 2', 'Open Sans', sans-serif;
   font-weight: 300;
   height: 50px;
   line-height: 50px;
@@ -610,7 +610,7 @@ h2.title {
   -moz-transition: all ease 0.1s;
   -o-transition: all ease 0.1s;
   transition: all ease 0.1s;
-  font: 14px 'Open Sans', sans-serif;
+  font: 14px 'Exo 2', 'Open Sans', sans-serif;
   font-weight: 300;
   display: inline-block;
   background: #1f8dd6;
