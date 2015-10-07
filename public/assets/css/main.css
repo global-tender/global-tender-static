@@ -210,7 +210,13 @@ nav {
 .menu a {
   text-decoration: none;
   font-weight: 400;
-  font-size: 1.1em;
+  font-size: 1.2em;
+  letter-spacing: 0.2px;
+  -webkit-transform:scale(2.0, 1.0);
+  -moz-transform:scale(1.2, 1.0);
+  -ms-transform:scale(1.2, 1.0);
+  -o-transform:scale(1.2, 1.0);
+  transform:scale(1.2,1.0);
 }
 .menu .menu-ul {
   padding-bottom: 5px;
