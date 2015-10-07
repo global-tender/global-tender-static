@@ -13,12 +13,10 @@
                     <div class="main-info">
                         <h1 class="main-info-text">
                             <span class="title">
-                                Cеминары по государственным<br>
-                                и коммерческим закупкам<br>
+                                Cеминары по государственным закупкам<br>
                                 <span>(44-ФЗ, 223-ФЗ)</span>
                             </span>
                             <br>
-                            <span class="desc">на территории всей Российской Федерации</span>
                         </h1>
                         <!-- <p><a href="#" class="btn-big js-scroll">Узнать подробнее <i class="fa fa-angle-double-down"></i></a></p> -->
                     </div>

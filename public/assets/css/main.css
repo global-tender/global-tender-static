@@ -15,7 +15,7 @@ textarea {
   color: #222;
 }
 html {
-  font-family: "Exo 2", "Open Sans";
+  font-family: "Open Sans";
   font-size: 1em;
   line-height: 1.4;
 }
@@ -160,14 +160,21 @@ nav {
 }
 .wrapper-main .main-info .main-info-text {
   position: absolute;
-  left: 50px;
-  top: 30%;
   color: #fff;
-  text-transform: uppercase;
   font-weight: 300;
   margin: 0;
-  background: rgba(0,0,0,.5);
   padding: 5px;
+  font: 60px 'Exo 2', 'Open Sans', sans-serif;
+  text-align: center;
+  width: 100%;
+  
+  left: 0;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 .wrapper-main .main-info .main-info-text .desc {
   font-size: 18px;
@@ -181,7 +188,7 @@ nav {
   -moz-transition: all ease 0.5s;
   -o-transition: all ease 0.5s;
   transition: all ease 0.5s;
-  font: 25px 'Exo 2', 'Open Sans', sans-serif;
+  font: 25px 'Open Sans', sans-serif;
   font-weight: 300;
   display: inline-block;
   padding: 10px 20px;
@@ -202,7 +209,8 @@ nav {
 }
 .menu a {
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 1.1em;
 }
 .menu .menu-ul {
   padding-bottom: 5px;
@@ -342,7 +350,7 @@ h2.title {
   width: 100%;
 }
 .footer .footer-text {
-  font: 14px 'Exo 2', 'Open Sans', sans-serif;
+  font: 14px 'Open Sans', sans-serif;
   font-weight: 300;
   height: 50px;
   line-height: 50px;
@@ -610,7 +618,7 @@ h2.title {
   -moz-transition: all ease 0.1s;
   -o-transition: all ease 0.1s;
   transition: all ease 0.1s;
-  font: 14px 'Exo 2', 'Open Sans', sans-serif;
+  font: 14px 'Open Sans', sans-serif;
   font-weight: 300;
   display: inline-block;
   background: #1f8dd6;
