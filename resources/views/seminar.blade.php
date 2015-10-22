@@ -17,12 +17,12 @@ $semArray = array(
 	'samara' => array('Самара', '30 октября', '15', 'http://www.nordmarine.ru/wp-content/uploads/2015/04/samara-moskva/Samara_1.jpg'),
 	'stavropol' => array('Ставрополь', '30 октября', '15', 'http://nstarikov.ru/wp-content/uploads/2014/11/%D1%81%D1%82%D0%B0%D0%B2%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C.jpg'),
 	'kazan223' => array('Казань', '09 ноября', '15', 'http://mir-travel.com/images/content/destinations/%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C8.jpg'),
-	'xab' => array('Хабаровск', '09 ноября', '15', 'http://organum-visus.com/sites/default/files/styles/1024x768/public/news_mini_top_img/khabarovsk-organum-visus-eyenews-120712g.jpeg?itok=C7U8OkzE&slideshow=true&slideshowAuto=false&slideshowSpeed=4000&speed=350&transition=fade'),
-        'vlad223' => array('Владивосток', '10 ноября', '15', 'http://s.pikabu.ru/post_img/big/2013/10/23/5/1382508326_1790634624.jpg'),
-        'blag' => array('Благовещенск', '11 ноября', '15', 'http://www.infokart.ru/wp-content/uploads/2013/02/blagoveshchensk_gorod.jpg'),
+	'xab' => array('Хабаровск', '23 ноября', '15', 'http://organum-visus.com/sites/default/files/styles/1024x768/public/news_mini_top_img/khabarovsk-organum-visus-eyenews-120712g.jpeg?itok=C7U8OkzE&slideshow=true&slideshowAuto=false&slideshowSpeed=4000&speed=350&transition=fade'),
+        'vlad223' => array('Владивосток', '24 ноября', '15', 'http://s.pikabu.ru/post_img/big/2013/10/23/5/1382508326_1790634624.jpg'),
+        'blag' => array('Благовещенск', '24 ноября', '15', 'http://www.infokart.ru/wp-content/uploads/2013/02/blagoveshchensk_gorod.jpg'),
     ),
     '44'  => array(
-        
+	'stav44' => array('Ставрополь', '30 ноября', '15', 'http://nstarikov.ru/wp-content/uploads/2014/11/%D1%81%D1%82%D0%B0%D0%B2%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C.jpg'),        
     ),
     'nal'  => array(
         
@@ -624,7 +624,7 @@ $semArray = array(
 
 
         <?php 
-        } if($_GET['act'] == '44') {
+        } if($_GET['act'] == '44' && $_GET['sem'] != 'stav44') {
         ?>
         <div class="sem-info">
             <div class="row">
@@ -740,7 +740,7 @@ $semArray = array(
         ?>
 
         <?php 
-        /*if($_GET['act'] == '44' && $_GET['sem'] == 'stav44') {
+        if($_GET['act'] == '44' && $_GET['sem'] == 'stav44') {
         ?>
         <div class="sem-info">
             <div class="row">
@@ -888,7 +888,7 @@ $semArray = array(
         </div>
 
         <?php
-        }*/
+        }
         ?>
     </main>
 </div>
