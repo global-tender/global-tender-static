@@ -13,7 +13,6 @@
 
 $semArray = array(
     '223' => array(
-	'murmansk' => array('Мурманск', '23 октября', '15', 'http://miriam-tour.ru/pic/kola_murmansk_01b.jpg'),
 	'samara' => array('Самара', '30 октября', '15', 'http://www.nordmarine.ru/wp-content/uploads/2015/04/samara-moskva/Samara_1.jpg'),
 	'stavropol' => array('Ставрополь', '30 октября', '15', 'http://nstarikov.ru/wp-content/uploads/2014/11/%D1%81%D1%82%D0%B0%D0%B2%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C.jpg'),
 	'kazan223' => array('Казань', '09 ноября', '15', 'http://mir-travel.com/images/content/destinations/%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C8.jpg'),
