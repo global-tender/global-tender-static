@@ -16,6 +16,7 @@ $semArray = array(
 	'xab' => array('Хабаровск', '23 ноября', '15', 'http://organum-visus.com/sites/default/files/styles/1024x768/public/news_mini_top_img/khabarovsk-organum-visus-eyenews-120712g.jpeg?itok=C7U8OkzE&slideshow=true&slideshowAuto=false&slideshowSpeed=4000&speed=350&transition=fade'),
 	'vlad223' => array('Владивосток', '24 ноября', '15', 'http://s.pikabu.ru/post_img/big/2013/10/23/5/1382508326_1790634624.jpg'),
 	'blag' => array('Благовещенск', '25 ноября', '15', 'http://www.infokart.ru/wp-content/uploads/2013/02/blagoveshchensk_gorod.jpg'),
+	'tumen223' => array('Тюмень', '11 декабря', '15', 'http://ng72.ru/userfiles/picoriginal/img-20150719102401-660.jpg'),
         ),
     '44'  => array(
 	//'belgorod' => array('Белгород', '14 августа', '15', 'http://trans-continental.ru/wp-content/uploads/2013/12/41907831.jpg'),
