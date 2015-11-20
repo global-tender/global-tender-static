@@ -16,9 +16,12 @@ $semArray = array(
 	'xab' => array('Хабаровск', '23 ноября', '15', 'http://organum-visus.com/sites/default/files/styles/1024x768/public/news_mini_top_img/khabarovsk-organum-visus-eyenews-120712g.jpeg?itok=C7U8OkzE&slideshow=true&slideshowAuto=false&slideshowSpeed=4000&speed=350&transition=fade'),
         'vlad223' => array('Владивосток', '24 ноября', '15', 'http://s.pikabu.ru/post_img/big/2013/10/23/5/1382508326_1790634624.jpg'),
         'blag' => array('Благовещенск', '25 ноября', '15', 'http://www.infokart.ru/wp-content/uploads/2013/02/blagoveshchensk_gorod.jpg'),
-	'tumen223' => array('Тюмень', '11 декабря', '15', 'http://ng72.ru/userfiles/picoriginal/img-20150719102401-660.jpg'),
 	'sktvkr223' => array('Сыктывкар', '11 декабря', '15', 'http://mwc2015.ru/files/syktyvkar-winter-city-panorama.jpg'),
 	'chel223' => array('Челябинск', '14 декабря', '15', 'http://img-fotki.yandex.ru/get/9668/106089749.38/0_e8448_2ae441db_orig.jpg'),
+	'vor2223' => array('Воронеж', '18 декабря', '15', 'http://calvertforum.org/images/uploads/pages/0200-1280.jpg'),
+        'kaluga223' => array('Калуга', '21 декабря', '15', 'http://www.gvasawyer.ru/ImgProjects/kaluga11.jpg'),
+        'kras223' => array('Краснодар', '23 декабря', '15', 'http://cdn.tvc.ru/pictures/o/100/768.jpg'),
+        'irk223' => array('Иркутск', '23 декабря', '15', 'http://bestmaps.ru/files/content_images/20120910135034.jpg'),
     ),
     '44'  => array(
 	'stav44' => array('Ставрополь', '30 ноября', '15', 'http://nstarikov.ru/wp-content/uploads/2014/11/%D1%81%D1%82%D0%B0%D0%B2%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C.jpg'),        
