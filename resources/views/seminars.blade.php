@@ -13,9 +13,9 @@
 
 $semArray = array(
     '223' => array(
-	'xab' => array('Хабаровск', '23 ноября', '15', 'http://organum-visus.com/sites/default/files/styles/1024x768/public/news_mini_top_img/khabarovsk-organum-visus-eyenews-120712g.jpeg?itok=C7U8OkzE&slideshow=true&slideshowAuto=false&slideshowSpeed=4000&speed=350&transition=fade'),
-	'vlad223' => array('Владивосток', '24 ноября', '15', 'http://s.pikabu.ru/post_img/big/2013/10/23/5/1382508326_1790634624.jpg'),
-	'blag' => array('Благовещенск', '25 ноября', '15', 'http://www.infokart.ru/wp-content/uploads/2013/02/blagoveshchensk_gorod.jpg'),
+	//'xab' => array('Хабаровск', '23 ноября', '15', 'http://organum-visus.com/sites/default/files/styles/1024x768/public/news_mini_top_img/khabarovsk-organum-visus-eyenews-120712g.jpeg?itok=C7U8OkzE&slideshow=true&slideshowAuto=false&slideshowSpeed=4000&speed=350&transition=fade'),
+	//'vlad223' => array('Владивосток', '24 ноября', '15', 'http://s.pikabu.ru/post_img/big/2013/10/23/5/1382508326_1790634624.jpg'),
+	//'blag' => array('Благовещенск', '25 ноября', '15', 'http://www.infokart.ru/wp-content/uploads/2013/02/blagoveshchensk_gorod.jpg'),
 	'sktvkr223' => array('Сыктывкар', '11 декабря', '15', 'http://mwc2015.ru/files/syktyvkar-winter-city-panorama.jpg'),
 	'chel223' => array('Челябинск', '14 декабря', '15', 'http://img-fotki.yandex.ru/get/9668/106089749.38/0_e8448_2ae441db_orig.jpg'),
 	'vor2223' => array('Воронеж', '18 декабря', '15', 'http://calvertforum.org/images/uploads/pages/0200-1280.jpg'),
