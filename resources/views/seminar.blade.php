@@ -625,7 +625,7 @@ $semArray = array(
 
 
         <?php 
-        } if($_GET['act'] == '44' && $_GET['sem'] != 'stav44') {
+        } if($_GET['act'] == '44' && $_GET['sem'] != 'stav44' && $_GET['sem'] != 'rostov44') {
         ?>
         <div class="sem-info">
             <div class="row">
@@ -741,7 +741,7 @@ $semArray = array(
         ?>
 
         <?php 
-        if($_GET['act'] == '44' && $_GET['sem'] == 'stav44') {
+        if( ($_GET['act'] == '44' && $_GET['sem'] == 'stav44') || ($_GET['act'] == '44' && $_GET['sem'] == 'rostov44')) {
         ?>
         <div class="sem-info">
             <div class="row">
